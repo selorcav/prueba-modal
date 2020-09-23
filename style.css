@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: 700;
+    font-size: 2em;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+h2{
+    font-size: 1.5em;
+}
+.modal-content{
+    overflow: hidden !important;
+}
+.modal-body{
+    background: url("bg.svg");
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+}
+.modal-content_pj{
+    height: inherit;
+}
+.modal-body img{
+    width: 50%;
+}
+.btn-modal{
+    background: transparent;
+    border: 1px solid #fff;
+    transition: .3s;
+}
+.btn-modal:hover{
+    background-color: #fff;
+    border: 1px solid transparent;
+    color: #ff6206 !important;
+}
+@media (max-width: 599px) {
+    .modal-body img{
+        width: 80%;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 1em;
+    }
+}
+@media (min-width: 600px) and (max-width: 990px) {
+    .modal-body img{
+        width: 80%;
+    }
+    h1{
+        font-size: 1.8em;
+    }
+    h2{
+        font-size: 1.2em;
+    }
+}
