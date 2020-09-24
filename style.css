@@ -1,13 +1,18 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-h1{
+.title-modal{
     font-weight: 700;
     font-size: 2em;
-    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
 }
-h2{
+.sub-title-modal{
     font-size: 1.5em;
+}
+.text-orange{
+    color: #ff9f24;
+}
+.text-shadow{
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
 }
 .modal-content{
     overflow: hidden !important;
@@ -15,14 +20,17 @@ h2{
 .modal-body{
     background: url("bg.svg");
     background-size: cover;
-    height: 80vh;
+    height: 100%;
     background-position: center;
 }
 .modal-content_pj{
     height: inherit;
 }
-.modal-body img{
+.modal-body_img{
     width: 50%;
+}
+.rd-logo{
+    width: 30%;
 }
 .btn-modal{
     background: transparent;
@@ -38,10 +46,10 @@ h2{
     .modal-body img{
         width: 80%;
     }
-    h1{
+    .title-modal{
         font-size: 1.5em;
     }
-    h2{
+    .sub-title-modal{
         font-size: 1em;
     }
 }
@@ -49,10 +57,10 @@ h2{
     .modal-body img{
         width: 80%;
     }
-    h1{
+    .title-modal{
         font-size: 1.8em;
     }
-    h2{
+    .sub-title-modal{
         font-size: 1.2em;
     }
 }
