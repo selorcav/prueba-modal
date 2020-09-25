@@ -4,9 +4,11 @@
 .title-modal{
     font-weight: 700;
     font-size: 2em;
+    font-family: 'Poppins', sans-serif;
 }
 .sub-title-modal{
     font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
 }
 .text-orange{
     color: #ff9f24;
@@ -16,6 +18,7 @@
 }
 .modal-content{
     overflow: hidden !important;
+    border-radius: .3em;
 }
 .modal-body{
     background: url("bg.svg");
@@ -43,7 +46,7 @@
     color: #ff6206 !important;
 }
 @media (max-width: 599px) {
-    .modal-body img{
+    .modal-body_img{
         width: 80%;
     }
     .title-modal{
@@ -63,4 +66,38 @@
     .sub-title-modal{
         font-size: 1.2em;
     }
+}
+.new-releases h2:first-child{
+    color: #155991;
+    font-weight: 700;
+}
+.new-releases_content{
+    background: #ebf2f7;
+    border-radius: .5em;
+    background-image: url("sección-nuevo-lanzamiento-02.png");
+    background-size: cover;
+    background-position: center;
+}
+.new-releases_content h2{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.new-releases_content p{
+    font-size: 1.7em;
+    color: #4d4d4d;
+}
+.btn-release{
+    background-color: #0071bc;
+    color: white;
+    border: solid 1px transparent;
+    transition: .3s;
+}
+.btn-release:hover{
+    background-color: white;
+    border: solid 1px #0071bc;
+    color: #0071bc;
+}
+.new-releases_button p{
+    font-size: 1em;
+    color: #4b7d99;
 }
